@@ -27,7 +27,7 @@ octave:2> helloworld (1,2,3)
 Hello World has 3 input arguments and 0 output arguments.
 
 
-# change rounding mode: setround.c
+# change rounding mode by mex: setround.c
 
   switch (rnd)
   

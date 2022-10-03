@@ -111,3 +111,5 @@ Getting Started with Oct-Files (GNU Octave (version 7.2.0)) https://docs.octave.
 GNU Octave: Getting Started with Mex-Files https://docs.octave.org/v4.2.0/Getting-Started-with-Mex_002dFiles.html
 
 Using directed rounding in Octave/Matlab (Kai Torben Ohlhus) https://siko1056.github.io/blog/2021/12/23/octave-matlab-directed-rounding.html
+
+Rounding modes (The GNU C Library) https://www.gnu.org/software/libc/manual/html_node/Rounding.html

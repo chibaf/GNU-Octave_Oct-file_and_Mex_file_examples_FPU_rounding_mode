@@ -35,31 +35,31 @@ Hello World has 3 input arguments and 0 output arguments.
     
       case -1:
       
-        mode = FE_DOWNWARD;
+        mode = FE_DOWNWARD;    # Round toward minus Infinity
         
         break;
         
       case 0:
       
-        mode = FE_TONEAREST;
+        mode = FE_TONEAREST;  # Round to nearest
         
         break;
         
       case 1:
       
-        mode = FE_UPWARD;
+        mode = FE_UPWARD;  # Round toward plus Infinity.
         
         break;
         
       case 2:
       
-        mode = FE_TOWARDZERO;
+        mode = FE_TOWARDZERO;  # Round toward zero
         
         break;
         
       default:
       
-        mode = FE_TONEAREST;
+        mode = FE_TONEAREST;  # Round to nearest
         
         break;
         
@@ -69,15 +69,15 @@ compile: mkoctfile --mex setround.c
 
 example:
 
-output_precision = 20
+output_precision = 16
 
-octave:44> setround(-1)
+octave:44> setround(-1)  # round downward
 
 octave:45> xd=[1/10;(-1)/10;1/10];
 
 octave:46> yd=[1/10;2/10;(-3)/10];
 
-octave:47> setround(1)
+octave:47> setround(1)   # round upward
 
 octave:48> xu=[1/10;(-1)/10;1/10];
 
@@ -95,7 +95,7 @@ octave:54> zu=xc'*yc+xc'*yr+xr'*yc+xr'*yr
 
 zu = -3.999999999999999e-02
 
-octave:55> setround(-1)
+octave:55> setround(-1)  # round downward
 
 octave:56> zd=xc'*yc+xc'*yr+xr'*yc+xr'*yr
 

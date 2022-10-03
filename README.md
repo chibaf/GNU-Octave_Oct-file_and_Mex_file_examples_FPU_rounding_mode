@@ -1,7 +1,7 @@
 # Oct-file_examples
 oct-file examples
 
-# (1) helloworld.cc:
+# short example and octave set up: helloworld.cc:
 how to use
 
 mkoctfile helloworld.cc
@@ -27,7 +27,7 @@ octave:2> helloworld (1,2,3)
 Hello World has 3 input arguments and 0 output arguments.
 
 
-# change rounding mode
+# change rounding mode: setround.c
 
   switch (rnd)
   
@@ -65,6 +65,7 @@ Hello World has 3 input arguments and 0 output arguments.
         
     }
 
+compile: mkoctfile --mex setround.c 
 
 # ref:
 

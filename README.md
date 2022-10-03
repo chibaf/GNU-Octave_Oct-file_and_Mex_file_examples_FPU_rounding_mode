@@ -67,6 +67,41 @@ Hello World has 3 input arguments and 0 output arguments.
 
 compile: mkoctfile --mex setround.c 
 
+example:
+
+output_precision = 20
+
+octave:44> setround(-1)
+
+octave:45> xd=[1/10;(-1)/10;1/10];
+
+octave:46> yd=[1/10;2/10;(-3)/10];
+
+octave:47> setround(1)
+
+octave:48> xu=[1/10;(-1)/10;1/10];
+
+octave:49> yu=[1/10;2/10;(-3)/10];
+
+octave:50> xc=(xd+xu)/2;
+
+octave:51> xr=xu-xc;
+
+octave:52> yc=(yd+yu)/2;
+
+octave:53> yr=yu-yc;
+
+octave:54> zu=xc'*yc+xc'*yr+xr'*yc+xr'*yr
+
+zu = -3.999999999999999e-02
+
+octave:55> setround(-1)
+
+octave:56> zd=xc'*yc+xc'*yr+xr'*yc+xr'*yr
+
+zd = -4.000000000000001e-02
+
+
 # ref:
 
 Getting Started with Oct-Files (GNU Octave (version 7.2.0)) https://docs.octave.org/latest/Getting-Started-with-Oct_002dFiles.html

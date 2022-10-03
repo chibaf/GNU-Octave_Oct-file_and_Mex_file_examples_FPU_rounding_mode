@@ -104,4 +104,6 @@ zd = -4.000000000000001e-02
 
 # ref:
 
+Linux 数値計算ツール、大石進一、コロナ社、2000年 https://www.coronasha.co.jp/np/isbn/9784339023787/
+
 Getting Started with Oct-Files (GNU Octave (version 7.2.0)) https://docs.octave.org/latest/Getting-Started-with-Oct_002dFiles.html

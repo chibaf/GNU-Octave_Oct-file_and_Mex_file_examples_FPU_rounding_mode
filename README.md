@@ -16,6 +16,16 @@ addpath("~/octave");
 
 where ~/octave is helloworld.oct's location
 
+on octave:
+
+octave:1> helloworld 
+
+Hello World has 0 input arguments and 0 output arguments.
+
+octave:2> helloworld (1,2,3)
+
+Hello World has 3 input arguments and 0 output arguments.
+
 
 # ref:
 

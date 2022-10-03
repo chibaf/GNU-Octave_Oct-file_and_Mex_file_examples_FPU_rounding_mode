@@ -1,5 +1,5 @@
 # Oct-file_examples
-oct-file examples
+oct-file and mex file exampls
 
 # short example and octave set up: helloworld.cc:
 how to use

@@ -15,3 +15,8 @@ set path to a location of helloworld.oct in .octaverc at your home
 addpath("~/octave");
 
 where ~/octave is helloworld.oct's location
+
+
+# ref:
+
+Getting Started with Oct-Files (GNU Octave (version 7.2.0)) https://docs.octave.org/latest/Getting-Started-with-Oct_002dFiles.html

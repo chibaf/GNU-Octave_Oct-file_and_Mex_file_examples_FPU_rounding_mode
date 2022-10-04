@@ -29,6 +29,8 @@ Hello World has 3 input arguments and 0 output arguments.
 
 # change rounding mode by mex: setround.c (*)
 
+# I assune x86_64 CPU.
+
   switch (rnd)
   
     {

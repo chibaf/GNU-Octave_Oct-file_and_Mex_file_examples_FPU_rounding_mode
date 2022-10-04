@@ -110,7 +110,7 @@ zd = -4.000000000000001e-02
 
 Getting Started with Oct-Files (GNU Octave (version 7.2.0)) https://docs.octave.org/latest/Getting-Started-with-Oct_002dFiles.html
 
-GNU Octave: Getting Started with Mex-Files https://docs.octave.org/v4.2.0/Getting-Started-with-Mex_002dFiles.html
+GNU Octave: Getting Started with Mex-Files https://docs.octave.org/v7.2.0/Getting-Started-with-Mex_002dFiles.html
 
 (*) Using directed rounding in Octave/Matlab (Kai Torben Ohlhus) https://siko1056.github.io/blog/2021/12/23/octave-matlab-directed-rounding.html
 

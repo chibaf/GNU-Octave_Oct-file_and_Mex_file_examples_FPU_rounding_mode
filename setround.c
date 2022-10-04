@@ -1,3 +1,7 @@
+// This code from:
+// "Using directed rounding in Octave/Matlab (Kai Torben Ohlhus)"
+// https://siko1056.github.io/blog/2021/12/23/octave-matlab-directed-rounding.html
+
 #include <mex.h>
 #include <fenv.h>
 #include <float.h>

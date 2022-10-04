@@ -1,5 +1,5 @@
 # Oct-file_examples
-oct-file and mex file exampls
+oct-file and mex file exampls and changing rounding mode of FPU
 
 # short example and octave set up: helloworld.cc:
 how to use

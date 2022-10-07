@@ -71,8 +71,9 @@ x86_64 CPU is supposed.
 compile: mkoctfile --mex setround.c 
 
 example (**):
+https://github.com/chibaf/Oct-file_and_Mex_file_examples_FPU_rounding_mode/blob/main/octave_log.txt
 
-output_precision = 16
+octave:43> output_precision = 16
 
 octave:44> setround(-1)  # round downward
 

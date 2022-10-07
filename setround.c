@@ -17,19 +17,19 @@ void mexFunction ( int nlhs, mxArray *plhs[],
   switch (rnd)
     {
       case -1:
-        mode = FE_DOWNWARD;
+        mode = FE_DOWNWARD;  // Round toward minus Infinity, Downward
         break;
       case 0:
-        mode = FE_TONEAREST;
+        mode = FE_TONEAREST; // Round to nearest
         break;
       case 1:
-        mode = FE_UPWARD;
+        mode = FE_UPWARD;  // Round toward plus Infinity, upward
         break;
       case 2:
-        mode = FE_TOWARDZERO;
+        mode = FE_TOWARDZERO; // Round toward zero
         break;
       default:
-        mode = FE_TONEAREST;
+        mode = FE_TONEAREST;  // Round to nearest
         break;
     }
 

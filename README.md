@@ -30,6 +30,17 @@ Hello World has 3 input arguments and 0 output arguments.
 
 # change rounding mode by mex: setround.c (*)
 
+usage:
+
+setround(-1): round toward downward
+
+setround(0): round to nearest
+
+setround(1): round toward upward
+
+setround(2): round Round toward zero
+
+
 x86_64 CPU is supposed.
 
   switch (rnd)

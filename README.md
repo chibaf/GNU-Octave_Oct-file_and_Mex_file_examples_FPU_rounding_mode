@@ -84,7 +84,7 @@ compile: mkoctfile --mex setround.c
 example (**):
 https://github.com/chibaf/Oct-file_and_Mex_file_examples_FPU_rounding_mode/blob/main/octave_log.txt
 
-octave:43> output_precision = 16
+octave:43> output_precision = 20
 
 octave:44> setround(-1)  # round downward
 

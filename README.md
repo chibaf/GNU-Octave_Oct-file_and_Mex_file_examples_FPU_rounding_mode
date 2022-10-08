@@ -27,6 +27,8 @@ octave:2> helloworld (1,2,3)
 
 Hello World has 3 input arguments and 0 output arguments.
 
+x86_64 CPU is supposed.
+
 
 # change rounding mode by mex: setround.c (*)
 
@@ -40,10 +42,7 @@ setround(1): round toward upward
 
 setround(2): round Round toward zero
 
-
-x86_64 CPU is supposed.
-
-switching rounding mode
+switching rounding mode:
 
   switch (rnd)
   

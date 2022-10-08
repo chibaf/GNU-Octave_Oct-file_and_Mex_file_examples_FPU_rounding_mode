@@ -43,6 +43,8 @@ setround(2): round Round toward zero
 
 x86_64 CPU is supposed.
 
+switching rounding mode
+
   switch (rnd)
   
     {

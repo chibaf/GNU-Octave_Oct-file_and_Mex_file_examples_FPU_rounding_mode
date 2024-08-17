@@ -115,6 +115,7 @@ octave:56> zd=xc'*yc+xc'*yr+xr'*yc+xr'*yr
 
 zd = -4.000000000000001e-02
 
+checked on apple silicon M1 / 2024-08-18
 
 # ref:
 

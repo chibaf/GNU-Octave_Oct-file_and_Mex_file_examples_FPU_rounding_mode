@@ -3,7 +3,9 @@
 # short example and octave set up: helloworld.cc:
 how to use
 
-mkoctfile helloworld.cc
+build:
+
+% mkoctfile helloworld.cc
 
 helloworld.oct is built
 
@@ -78,7 +80,9 @@ switching rounding mode:
         
     }
 
-compile: mkoctfile --mex setround.c 
+build: 
+
+% mkoctfile --mex setround.c 
 
 example (**):
 https://github.com/chibaf/Oct-file_and_Mex_file_examples_FPU_rounding_mode/blob/main/octave_log.txt
